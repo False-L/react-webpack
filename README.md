@@ -46,7 +46,6 @@
 ```javascript
 var webpack = require('webpack');
 var path = require('path');
-
 module.exports = {
   entry: path.resolve(__dirname, 'src/index.js'),
   output: {
@@ -54,10 +53,9 @@ module.exports = {
     filename: 'bundle.js'
   },
   devServer:{
-      contentBase: path.join(__dirname, "build"),
+      contentBase: path.join(__dirname, "build"),//webpack-dev-server的目录
       compress: true,//开启gzip
-      port: 9000,
-      clientLogLevel: "none",//阻止消
+      port: 9000//端口
   },
   module: {
     loaders: [
