@@ -1,4 +1,4 @@
-#  react-webpack
+#  react-webpack基本配置
 ## package
 ```json
 {
@@ -11,7 +11,7 @@
     "build": "webpack"
   },
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": { 
     "react": "^15.5.3",
     "react-dom": "^15.5.3",
